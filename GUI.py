@@ -6,7 +6,6 @@ import numpy as np
 import simply
 M = sympy.Symbol('M', positive=True)
 HEADER_SPACE=11
-
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow,self).__init__()
